@@ -19,7 +19,7 @@ work:
       - item: H_Prototype_Balance.html
         image: /images/H%20Prototype%20Balance.jpg
       - item: H_Prototype_Zumo.html
-        image: /images/H%20Prototype%20Zumo.jpg
+        image: /images/H%20Prototype%20Zumo%201.jpg
   - category: Organizations
     items:
       - item: O_AgroFides_Logo.html
@@ -27,7 +27,7 @@ work:
       - item: O_Automation_Lab_Logo.html
         image: /images/O%20Automation%20Lab%20Logo.png
       - item: O_E_Helper_Logo.html
-        image: /images/O%20E%20Helper%20Logo.jpg
+        image: /images/O%20E%20Helper%20logo.jpg
   - category: Activities
     items:
       - item: A_Augmenting_the_Human_Logo.html
