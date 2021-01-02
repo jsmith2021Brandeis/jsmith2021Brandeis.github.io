@@ -28,7 +28,7 @@ work:
         image: /images/O%20Automation%20Lab%20Logo.png
       - item: O%20E%20Helper%20Logo.html
         image: /images/O%20E%20Helper%20Logo.jpg
-    - category: Activities
+  - category: Activities
     items:
       - item: A%20Augmenting%20the%20Human%20Logo.html
         image: /images/A%20Augmenting%20the%20Human%20Logo.PNG
