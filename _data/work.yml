@@ -1,26 +1,38 @@
 # this file organizes the items in your portfolio, which are placed in the _includes folder
 # in the root directory
-# this file organizes the items in your portfolio, which are placed in the _includes folder
-# in the root directory
-# this file organizes the items in your portfolio, which are placed in the _includes folder
-# in the root directory
 
 work:
   - category: Software Projects
     items:
-      - item: SImpactMaker.html
+      - item: S_Impact_Maker.html
         image: /images/S%20Impact%20Maker.PNG # optionally, include the file path for an image for each item
-      - item: example.html
-        image:  /images/S%20Arm%20Interfacing%20Project.PNG
-      - item: example.html
+      - item: S_Arm_Interfacing_Project_Final.html
+        image: /images/S_Arm_Interfacing_Project.PNG
+      - item: S_Zumo_Logo.html
         image: /images/S%20Zumo%20Logo.PNG
-  - category: Los Angeles
+  - category: Hardware Projects
     items:
-      - item: example.html
-        image: /images/LA1.jpg
-      - item: example.html
-        image: /images/LA2.jpg
-      - item: example2.html
-        image: /images/LA3.jpg
-      - item: example3.html
-        image: /images/LA4.jpg
+      - item: H_PHYS29_Lab_11.html
+        image: /images/H%20PHYS29%20Lab%2011.jpg
+      - item: H_Prototype_ROSSERVER.html
+        image: /images/H%20Prototype%20ROSSERVER.jpg
+      - item: H_Prototype_Balance.html
+        image: /images/H%20Prototype%20Balance.jpg
+      - item: H_Prototype_Zumo.html
+        image: /images/H%20Prototype%20Zumo.jpg
+  - category: Organizations
+    items:
+      - item: O_AgroFides_Logo.html
+        image: /images/O%20AgroFides%20Logo.png
+      - item: O_Automation_Lab_Logo.html
+        image: /images/O%20Automation%20Lab%20Logo.png
+      - item: O_E_Helper_Logo.html
+        image: /images/O%20E%20Helper%20Logo.jpg
+  - category: Activities
+    items:
+      - item: A_Augmenting_the_Human_Logo.html
+        image: /images/A%20Augmenting%20the%20Human%20Logo.PNG
+      - item: A_BRO_Logo.html
+        image: /images/A%20BRO%20Logo.PNG
+      - item: A_Music_Corner.html
+        image: /images/A%20Music%20Corner.jpg
