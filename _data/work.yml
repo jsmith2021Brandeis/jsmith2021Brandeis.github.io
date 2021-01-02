@@ -2,23 +2,40 @@
 # in the root directory
 
 work:
-  - category: New York City
+  - category: Software Projects
     items:
-      - item: example.html
-        image: /images/NYC1.jpg # optionally, include the file path for an image for each item
-      - item: example.html
-        image: /images/NYC2.jpg
-      - item: example2.html
-        image: /images/NYC3.jpg
-      - item: example3.html
-        image: /images/NYC4.jpg
-  - category: Los Angeles
+      - item: S%20Impact%20Maker.html
+        image: /images/S%20Impact%20Maker.pdf # optionally, include the file path for an image for each item
+      - item: S%20Arm%20Interfacing%20Project%20Final.html
+        image: /images/S%20Arm%20Interfacing%20Project%20Final.pdf
+      - item: S%20Zumo%20Logo.html
+        image: /images/S%20Zumo%20Logo.PNG
+
+  - category: Hardware Projects
     items:
-      - item: example.html
-        image: /images/LA1.jpg
-      - item: example.html
-        image: /images/LA2.jpg
-      - item: example2.html
-        image: /images/LA3.jpg
-      - item: example3.html
-        image: /images/LA4.jpg
+      - item: H%20PHYS29%20Lab%2011.html
+        image: /images/H%20PHYS29%20Lab%2011.jpg
+      - item: H%20Prototype%20ROSSERVER.html
+        image: /images/H%20Prototype%20ROSSERVER.jpg
+      - item: H%20Prototype%20Balance.html
+        image: /images/H%20Prototype%20Balance.jpg
+      - item: H%20Prototype%20Zumo.html
+        image: /images/H%20Prototype%20Zumo.jpg
+
+  - category: Organizations
+    items:
+      - item: O%20AgroFides%20Logo.html
+        image: /images/O%20AgroFides%20Logo.png
+      - item: O%20Automation%20Lab%20Logo.html
+        image: /images/O%20Automation%20Lab%20Logo.png
+      - item: O%20E%20Helper%20Logo.html
+        image: /images/O%20E%20Helper%20Logo.jpg
+
+    - category: Activities
+    items:
+      - item: A%20Augmenting%20the%20Human%20Logo.html
+        image: /images/A%20Augmenting%20the%20Human%20Logo.PNG
+      - item: A%20BRO%20Logo.html
+        image: /images/A%20BRO%20Logo.PNG
+      - item: A%20Music%20Corner.html
+        image: /images/A%20Music%20Corner.jpg
