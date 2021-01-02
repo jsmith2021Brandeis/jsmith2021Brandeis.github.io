@@ -6,25 +6,3 @@ work:
     items:
       - item: H%20PHYS29%20Lab%2011.html
         image: /images/H%20PHYS29%20Lab%2011.jpg
-      - item: H%20Prototype%20ROSSERVER.html
-        image: /images/H%20Prototype%20ROSSERVER.jpg
-      - item: H%20Prototype%20Balance.html
-        image: /images/H%20Prototype%20Balance.jpg
-      - item: H%20Prototype%20Zumo.html
-        image: /images/H%20Prototype%20Zumo.jpg
-  - category: Organizations
-    items:
-      - item: O%20AgroFides%20Logo.html
-        image: /images/O%20AgroFides%20Logo.png
-      - item: O%20Automation%20Lab%20Logo.html
-        image: /images/O%20Automation%20Lab%20Logo.png
-      - item: O%20E%20Helper%20Logo.html
-        image: /images/O%20E%20Helper%20Logo.jpg
-  - category: Activities
-    items:
-      - item: A%20Augmenting%20the%20Human%20Logo.html
-        image: /images/A%20Augmenting%20the%20Human%20Logo.PNG
-      - item: A%20BRO%20Logo.html
-        image: /images/A%20BRO%20Logo.PNG
-      - item: A%20Music%20Corner.html
-        image: /images/A%20Music%20Corner.jpg
