@@ -6,8 +6,8 @@ work:
     items:
       - item: S_Impact_Maker.html
         image: /images/S%20Impact%20Maker.PNG # optionally, include the file path for an image for each item
-      - item: S_Arm_Interfacing_Project_Final.html
-        image: /images/S_Arm_Interfacing_Project.PNG
+      - item: S_Arm_Interfacing_Project.html
+        image: /images/S%20Arm%20Interfacing%20Project.PNG
       - item: S_Zumo_Logo.html
         image: /images/S%20Zumo%20Logo.PNG
   - category: Hardware Projects
