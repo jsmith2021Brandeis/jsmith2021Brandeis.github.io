@@ -8,11 +8,11 @@
 work:
   - category: Software Projects
     items:
-      - item: S%20Impact%20Maker.html
+      - item: SImpactMaker.html
         image: /images/S%20Impact%20Maker.PNG # optionally, include the file path for an image for each item
-      - item: S%20Arm%20Interfacing%20Project.html
+      - item: example.html
         image:  /images/S%20Arm%20Interfacing%20Project.PNG
-      - item: S%20Zumo%20Logo.html
+      - item: example.html
         image: /images/S%20Zumo%20Logo.PNG
   - category: Los Angeles
     items:
