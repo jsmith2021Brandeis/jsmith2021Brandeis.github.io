@@ -19,8 +19,6 @@ favicon: /assets/ico/favicon.ico
 github_username:  jsmith2021Brandeis # your github username
 
 # By declaring these variables, you can include a button that links to an external website or to media.
-about_button: https://jsmith2021brandeis.github.io/ # the link
-about_button_label: get hello # the label on the button
 
 # optional portfolio section ------------------------------------------
 
