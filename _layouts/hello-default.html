@@ -183,8 +183,7 @@
             <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
             {% endif %}
              {% if page.article %}
-            <a href={{page.article}}>
-    								<img border="0" alt="Image and Link" src="{{ page.articleImage }}" width="100" height="100">
+            <a href={{ page.article }}><img src={{ page.articleImage }}></a>
             {% endif %}
         </ul>
     
