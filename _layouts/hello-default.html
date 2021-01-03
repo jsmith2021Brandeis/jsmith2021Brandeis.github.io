@@ -119,6 +119,7 @@
     				      <header class="special">
                   <h2><strong>{{ page.portfolio }}</strong></h2>
                 </header>
+                <p>{{ page.portfolio_description }}</p>
                 {% for categories in site.data[page.portfolio][page.portfolio] %}
                 <div class="row">
     
@@ -126,63 +127,61 @@
                               <h3 style="margin-bottom:2em; font-size:1.25em"><strong>{{ categories.category}}</strong></h3>
                           </div>
     
-                          {% for items in categories.items %}
+                         {% for items in categories.items %}
                           <div class="6u item">
                             <section>
-                               <div class="image featured">
-                                      <img src="{{ items.image }}" alt="" />
-                                  </div>
-    
+                              <div class="image featured">
+                                  <img src="{{ items.image }}" alt="" />
+                              </div>
+
                               {% include {{ items.item }} %}
                             </section>
                           </div>
                           {% endfor %}
-                </div>
-    
-                {% endfor %}
-    
-            </section>
-            {% endif %}
-      </article>
-    
-        <!-- section: cta -->
-        {% if page.cta %}
-      <section class="cta" id="{{ page.cta }}" 
-      {% if page.background_image %}
-      style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover;"
-      {% endif %}>
-    		
-          <header class="major">
-            <h2>{{ page.cta }}</h2>
-          </header>
-          {% if page.cta %}
-          <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
-          {% endif %}
-          <footer style="margin-bottom:8em">
-              {% if page.cta_button %}
-            <ul class="buttons">
-              <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
-            </ul>
-              {% endif %}
-          </footer>
-        
+            </div>
+
+            {% endfor %}
+
         </section>
         {% endif %}
-    </div>
-    
-    <!-- Footer -->
-    <footer id="footer">
-    
-        <ul class="icons">
-            {% if page.github_username %}
-            <li><a href="https://github.com/{{ page.github_username }}" class="icon circle fa-github"><span class="label">Github</span></a></li>
-            {% endif %}
-            {% if page.linkedin %}
-            <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-            {% endif %}
+  </article>
+
+    <!-- section: cta -->
+    {% if page.cta %}
+  <section class="cta" id="{{ page.cta }}" 
+  {% if page.background_image %}
+  style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover;"
+  {% endif %}>
+		
+      <header class="major">
+        <h2>{{ page.cta }}</h2>
+      </header>
+      {% if page.cta %}
+      <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
+      {% endif %}
+      <footer style="margin-bottom:8em">
+          {% if page.cta_button %}
+        <ul class="buttons">
+          <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
         </ul>
+          {% endif %}
+      </footer>
     
-    <ul class="copyright">
+    </section>
+    {% endif %}
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+
+    <ul class="icons">
+        {% if page.github_username %}
+        <li><a href="https://github.com/{{ page.github_username }}" class="icon circle fa-github"><span class="label">Github</span></a></li>
+        {% endif %}
+        {% if page.linkedin %}
+        <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="labe>LinkedIn</span></a></li>
+        {% endif %}
+<ul class="copyright">
         <li>this website is maintained by {{ site.author}}</li>
         <li>design: <a href="https://saragong.github.io/hello/"><strong>hello</strong></a> for github pages</li>
         <li>adapted from <a href="https://html5up.net/twenty"><strong>Twenty</strong></a> by HTML5 Up</li>
