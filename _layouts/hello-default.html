@@ -129,11 +129,9 @@
                           {% for items in categories.items %}
                           <div class="6u item">
                             <section>
-                              <div class="image featured">
-    								<a href="{{ items.link }}">
-     								<img src="{{ items.image }}"/>
-    								</a>
-                              </div>
+                               <div class="image featured">
+                                      <img src="{{ items.image }}" alt="" />
+                                  </div>
     
                               {% include {{ items.item }} %}
                             </section>
@@ -181,9 +179,6 @@
             {% endif %}
             {% if page.linkedin %}
             <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-            {% endif %}
-             {% if page.article %}
-            	<a href="{{ page.article }}"><img src="{{ page.articleImage }}"></a>
             {% endif %}
         </ul>
     
