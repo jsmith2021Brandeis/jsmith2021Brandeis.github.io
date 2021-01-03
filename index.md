@@ -7,7 +7,7 @@ background_image: /images/background.jpeg
 github_username:  jsmith2021Brandeis # your github username
 
 favicon: /assets/ico/favicon.ico
-portfolio: work # the heading for your portfolio and title of your YAML file
+portfolio: Portfolio # the heading for your portfolio and title of your YAML file
 
 # contact section
 cta: connect 
