@@ -131,8 +131,8 @@
                             <section>
                               <div class="image featured">
                                  <!-- <img src="{{ items.image }}" alt="" />>
-    								<a href={{ items.link }}>
-     								<img src={{ items.image }}/>
+    								<a href="{{ items.link }}">
+     								<img src="{{ items.image }}"/>
     								</a>
                               </div>
     
@@ -184,7 +184,7 @@
             <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
             {% endif %}
              {% if page.article %}
-            <a href={{ page.article }}><img src={{ page.articleImage }}></a>
+            <a href="{{ page.article }}"><img src="{{ page.articleImage }}"></a>
             {% endif %}
         </ul>
     
