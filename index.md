@@ -7,6 +7,7 @@ background_image: /images/background.jpeg
 linkedin: jsmith2021
 github_username:  jsmith2021Brandeis # your github username
 article:  https://www.brandeis.edu/now/2020/may/jacob-smith-robotics.html
+articleImage: /images/Brandeis%20Seal.tif
 
 favicon: /assets/ico/favicon.ico
 portfolio: work # the heading for your portfolio and title of your YAML file

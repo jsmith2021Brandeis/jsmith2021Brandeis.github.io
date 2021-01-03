@@ -119,7 +119,6 @@
     				      <header class="special">
                   <h2><strong>{{ page.portfolio }}</strong></h2>
                 </header>
-                <p>{{ page.portfolio_description }}</p>
                 {% for categories in site.data[page.portfolio][page.portfolio] %}
                 <div class="row">
     
@@ -131,7 +130,9 @@
                           <div class="6u item">
                             <section>
                               <div class="image featured">
-                                  <img src="{{ items.image }}" alt="" />
+                                 <!-- <img src="{{ items.image }}" alt="" />>
+                             	<a href={{items.link}}>
+    								<img border="0" alt="Image and Link" src="{{ items.image }}" width="100" height="100">
                               </div>
     
                               {% include {{ items.item }} %}
@@ -182,7 +183,8 @@
             <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
             {% endif %}
              {% if page.article %}
-            <li><a href="{{page.article}}" class="icon circle fa-Brandeis"><span class="label">Article</span></a></li>
+            <a href={{page.article}}>
+    								<img border="0" alt="Image and Link" src="{{ page.articleImage }}" width="100" height="100">
             {% endif %}
         </ul>
     
