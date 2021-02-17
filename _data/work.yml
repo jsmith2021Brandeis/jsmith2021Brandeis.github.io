@@ -31,7 +31,7 @@ work:
       - item: O_E_Helper_Logo.html
         image: /images/O%20E%20Helper%20logo.jpg
       - item: O_Brandeis_University_Logo.html
-        image: /images/Brandeis_University_Logo.png
+        image: /images/Brandeis_Logo.jpg
   - category: Activities
     items:
       - item: A_Augmenting_the_Human_Logo.html
