@@ -8,6 +8,8 @@ work:
         image: /images/S%20Impact%20Maker.PNG # optionally, include the file path for an image for each item
       - item: S_Arm_Interfacing_Project.html
         image: /images/S%20Arm%20Interfacing%20Project.PNG
+      - item: AgroFides_Database.html
+        image: /images/AgroFides_Database.PNG
       - item: S_Zumo_Logo.html
         image: /images/S%20Zumo%20Logo.PNG
   - category: Hardware Projects
@@ -28,6 +30,8 @@ work:
         image: /images/O%20Automation%20Lab%20Logo.png
       - item: O_E_Helper_Logo.html
         image: /images/O%20E%20Helper%20logo.jpg
+      - item: O_Brandeis_University_Logo.html
+        image: /images/Brandeis_University_Logo.jpg
   - category: Activities
     items:
       - item: A_Augmenting_the_Human_Logo.html
