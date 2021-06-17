@@ -15,8 +15,8 @@ cta: connect
 cta_description: Please don't hesitate to reach out to me at jsmith2021[at]brandeis.edu
 
 ---
-I am a passionate Computer Programmer, Musician, and Jew
+I am a passionate Software Engineer, Musician, and Jew
 
-As a passionate software developer, I strive to create innovative technology solutions, and I love applying my skills and knowledge to solve problems.
+As a software engineer, I strive to create innovative technology solutions, and I love applying my skills and knowledge to solve problems.
 
 As a Jew, I feel a deep spiritual connection to my community, especially through music.
