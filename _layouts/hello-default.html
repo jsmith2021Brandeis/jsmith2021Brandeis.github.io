@@ -130,9 +130,12 @@
                           {% for items in categories.items %}
                           <div class="6u item">
                             <section>
-                              <div class="image featured">
-                                  <img src="{{ items.image }}" alt="" />
+                              <a href="{{ items.image }}">
+                              <div class="image featured"> 
+                                <img src="{{ items.image }}" alt="Item Image" />
                               </div>
+                              </a>
+                    
 
                               {% include {{ items.item }} %}
                             </section>
